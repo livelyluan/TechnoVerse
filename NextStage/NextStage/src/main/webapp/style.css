@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/*PRINCIPAL*/
+
+body {
+    background-image: url("/assets/images/fundo.jpg");
+    background-size: 100% 100%;
+    background-position: top;
+    margin: 0;
+        width : 100vw;
+        height : 100vh;
+        overflow-x: hidden;
+      }
+
+#navbar {
+    background-color: #251484;
+    color: white;
+    height: 90px;
+}
+
+#container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#logo1 {
+    margin-left: 15px;
+
+}
+
+#link-logo {
+    text-decoration: none;
+}
+
+#login {
+    text-decoration: none;
+    color: white;
+    margin-left: 1100px;
+}
+#register {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+
+
+#nextstage {
+    text-align: left;
+    margin-left: 15px;
+    font-family: "Tiny5", sans-serif;
+    color: white;
+}
+  
+#tab-button {
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+#textotab {
+    color: white;
+    margin-right: 300px;
+}
+
+
+
+/*FONTES*/
+
+.tiny5-regular {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .silkscreen-bold {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+/*REGISTER*/
+
+#tituloRegister {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    flex-direction: column;
+    color: white;
+}
+
+#h1R {
+    font-family: "silkscreen", sans-serif;
+    font-weight: bold;
+}
+
+#h5R {
+    font-family: "silkscreen", sans-serif;
+}
+
+#divform {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    
+}
+
+#formRegister {
+    color: white;
+}
+
+#fieldsetRegister {
+    background-color: transparent; 
+    border: 2px solid whitesmoke; 
+    padding: 20px; 
+    border-radius: 8px; 
+
+}
+#divInput {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+input {
+    background-color: transparent;  
+    border: 2px solid white;         
+    padding: 10px;                   
+    margin-bottom: 15px;             
+    color: white;                     
+    width: 100%;                     
+    box-sizing: border-box;          
+  }
+
+ input::placeholder {
+    color: white;
+ }
+
+  #newaccount {
+    align-items: center;
+    border: none;
+    color: white;
+    background-color: #583CF6;
+    font-weight: bold;
+    height: 40px;
+    width: 300px;
+  }
+
+
+  /*Login*/
+
+  #H5L {
+    text-decoration: none;
+  }
